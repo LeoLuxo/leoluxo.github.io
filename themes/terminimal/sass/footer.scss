@@ -13,7 +13,7 @@
     width: 760px;
     max-width: 100%;
 
-    @media (max-width: $tablet-max-width) {
+    @media (max-width: $container-max-width) {
       flex-direction: column;
     }
   }
@@ -37,27 +37,27 @@
     & > *:first-child:not(:only-child) {
       margin-right: 10px;
 
-       @media (max-width: $tablet-max-width) {
+       @media (max-width: $container-max-width) {
         border: none;
         padding: 0;
         margin: 0;
       }
     }
 
-    @media (max-width: $tablet-max-width) {
+    @media (max-width: $container-max-width) {
       flex-direction: column;
       margin-top: 10px;
     }
   }
 
   .copyright-theme-sep {
-    @media (max-width: $tablet-max-width) {
+    @media (max-width: $container-max-width) {
       display: none;
     }
   }
 
   .copyright-theme {
-    @media (max-width: $tablet-max-width) {
+    @media (max-width: $container-max-width) {
       font-size: 0.75rem;
     }
   }

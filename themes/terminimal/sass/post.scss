@@ -11,7 +11,7 @@
   margin: 20px auto;
   padding: 20px 0;
 
-  @media (max-width: $tablet-max-width) {
+  @media (max-width: $container-max-width) {
     max-width: 660px;
   }
 
@@ -66,7 +66,7 @@
 
     display: inline;
 
-    @media (max-width: $phone-max-width) {
+    @media (max-width: $container-max-width) {
       display: block;
     }
   }
@@ -81,7 +81,7 @@
     margin: 40px 0;
     padding: 20px;
 
-    @media (max-width: $phone-max-width) {
+    @media (max-width: $container-max-width) {
       padding: 10px;
       border-width: 10px;
     }

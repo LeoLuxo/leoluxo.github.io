@@ -14,7 +14,7 @@
     // width: 760px;
     max-width: 100%;
 
-    @media (max-width: $tablet-max-width) {
+    @media (max-width: $container-max-width) {
       flex-direction: column;
     }
   }
@@ -27,22 +27,27 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--light-color-secondary);
+    
+    @media (max-width: $container-max-width) {
+      align-items: center;
+      font-size: 0.7rem;
+    }
   }
 
   .copyright-theme-sep {
     margin: 10px;
-    @media (max-width: $tablet-max-width) {
+    @media (max-width: $container-max-width) {
       display: none;
     }
   }
 
   .copyright-theme {
-    @media (max-width: $tablet-max-width) {
-      font-size: 0.75rem;
+    @media (max-width: $container-max-width) {
       display: flex;
       flex-direction: column;
+      align-items: center;
     }
   }
 }
